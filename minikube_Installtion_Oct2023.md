@@ -116,5 +116,5 @@ You can now start Minikube with the following command:
 
 ```bash
 $ sudo usermod -aG docker $USER && newgrp docker
-$ minikube start --driver=docker
+$ minikube start --force --driver=docker
 
