@@ -118,5 +118,6 @@ You can now start Minikube with the following command:
 $ sudo usermod -aG docker $USER && newgrp docker
 $ minikube start --force --driver=docker
 $ source <(kubectl completion bash) [This is for autocompletion of kubectl command]
+$ source ~/.bashrc [ run this after the above command ]
 
 
